@@ -1,5 +1,5 @@
 import { businessConfig } from '../config/business';
-import { BookingFormData, BookingResult } from '../types';
+import type { BookingFormData, BookingResult } from '../types';
 
 export function formatWhatsAppMessage(formData: BookingFormData): string {
   const returnDateText = formData.returnDate ? formData.returnDate : 'Not specified';

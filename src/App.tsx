@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { BookingForm } from './components/BookingForm';
@@ -10,7 +10,7 @@ import { ContactCTA } from './components/ContactCTA';
 import { Footer } from './components/Footer';
 import { FloatingWhatsApp } from './components/FloatingWhatsApp';
 import { ToastNotification } from './components/ToastNotification';
-import { ToastMessage, ToastType } from './types';
+import type { ToastMessage, ToastType } from './types';
 
 export function App() {
   const [activeSection, setActiveSection] = useState<string>('home');

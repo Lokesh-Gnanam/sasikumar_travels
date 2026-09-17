@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldAlert, Fuel, MapPin, Tag, Calendar, Clock, CheckCircle2 } from 'lucide-react';
+import { ShieldAlert, Fuel, Tag, Calendar } from 'lucide-react';
 
 export const ImportantBookingInfo: React.FC = () => {
   return (

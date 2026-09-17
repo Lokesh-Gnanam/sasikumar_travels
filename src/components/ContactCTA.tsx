@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import { Phone, MessageCircle, Calendar, MapPin, Clock, ShieldCheck } from 'lucide-react';
 import { businessConfig } from '../config/business';
 

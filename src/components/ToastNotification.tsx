@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2, AlertTriangle, XCircle, Info, X } from 'lucide-react';
-import { ToastMessage } from '../types';
+import type { ToastMessage } from '../types';
 
 interface ToastNotificationProps {
   toasts: ToastMessage[];
@@ -85,7 +85,7 @@ const ToastItem: React.FC<ToastItemProps> = ({ toast, onDismiss }) => {
       </div>
       <button
         onClick={() => onDismiss(toast.id)}
-        className="opacity-70 hover:opacity-100 transition-opacity p-1 -mr-1 -mt-1 rounded hover:bg-black/10 focus:outline-none"
+        className="opacity-70 hover:opacity-100 transition-opacity p-1 -mr-1 -mt-1 rounded hover:bg-black/10 focus:outline-none cursor-pointer"
         aria-label="Close notification"
       >
         <X className="w-4 h-4" />

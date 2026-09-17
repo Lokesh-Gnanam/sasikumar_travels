@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Users, Fuel, ShieldAlert, Tag, Calendar, AlertCircle, ArrowRight, Check } from 'lucide-react';
-import { vehicleFleet, businessConfig } from '../config/business';
-import { VehicleOption } from '../config/business';
+import { vehicleFleet } from '../config/business';
+import type { VehicleOption } from '../config/business';
 
 interface VehicleFleetProps {
   onSelectVehicle: (vehicleSeating: string) => void;
@@ -190,7 +190,7 @@ export const VehicleFleet: React.FC<VehicleFleetProps> = ({ onSelectVehicle }) =
                 <h4>Festival &amp; Peak Season</h4>
               </div>
               <p className="text-xs text-[#4B5563] leading-relaxed">
-                Fares may vary during major Tiruvannamalai festivals (such as Karthigai Deepam, Chitra Pournami), holidays, and peak tourism seasons.
+                Fares may vary during major Tiruvannamalai festivals (such as Karthigai Deepam), holidays, and peak tourism seasons.
               </p>
             </div>
 

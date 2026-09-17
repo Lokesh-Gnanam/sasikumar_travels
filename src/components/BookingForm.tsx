@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Send, Calendar, User, Phone, MapPin, Car, ShieldAlert, Loader2, Info } from 'lucide-react';
-import { BookingFormData, TripType, VehicleSeatingType } from '../types';
+import type { BookingFormData, TripType, VehicleSeatingType } from '../types';
 import { processBookingWhatsApp } from '../lib/whatsapp';
 import { saveBookingToSupabase } from '../lib/supabase';
 
