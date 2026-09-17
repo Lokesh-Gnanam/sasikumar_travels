@@ -48,8 +48,8 @@ export interface BusinessConfig {
 }
 
 // Environment variable overrides with fallback placeholders
-const envWhatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER || "919876543210";
-const envPhone = import.meta.env.VITE_PHONE_NUMBER || "+91 XXXXX XXXXX";
+const envWhatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER || "919345492127";
+const envPhone = import.meta.env.VITE_PHONE_NUMBER || "+91 93454 92127";
 
 export const businessConfig: BusinessConfig = {
   businessName: "SASI KUMAR TRAVELS",
